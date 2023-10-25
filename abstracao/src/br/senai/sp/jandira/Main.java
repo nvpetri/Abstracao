@@ -4,8 +4,8 @@ import br.senai.sp.jandira.model.*;
 public class Main {
     public static void main(String[] args) {
 
-        Gerente gerente = new Gerente("João", 1, 5000.0, 1000.0);
-        Programador programador = new Programador("Maria", 2, 3500.0, 10);
+        Gerente gerente = new Gerente("Nicolas", 132, 12000.0, 1650.0);
+        Programador programador = new Programador("Maria", 2323, 5000.0, 18);
 
         System.out.println("Informações do Gerente:");
         System.out.println("Nome: " + gerente.getNome());
