@@ -1,0 +1,27 @@
+Suponha que você esteja desenvolvendo um sistema de gerenciamento de funcionários para uma empresa. 
+Use abstração para criar uma hierarquia de classes que representam diferentes tipos de funcionários e suas informações.
+
+1 - Crie uma classe abstrata chamada Funcionario com os seguintes atributos:
+
+ - Nome
+ - ID
+ - Salário base
+
+2 - Adicione um método abstrato chamado calcularSalario na classe Funcionario que deve ser implementado nas subclasses.
+
+3 - Crie duas subclasses de Funcionario: Gerente e Programador.
+
+
+4 - A classe Gerente deve incluir um atributo adicional:
+ - Bônus de gerência 
+
+5 - A classe Programador deve incluir um atributo adicional:
+
+ - Número de horas extras
+
+6 - Implemente o método calcularSalario nas subclasses:
+
+ - Para Gerente, o salário deve ser o salário base mais o bônus de gerência.
+ - Para Programador, o salário deve ser o salário base mais o pagamento pelas horas extras trabalhadas.
+
+7 - Crie um programa principal (main) que demonstre a abstração, criando objetos de funcionários, calculando seus salários e exibindo as informações.
